@@ -1,0 +1,13 @@
+drawer,position,train,date_pose,date_depose,ot,code,description,commentaire
+TIROIR TR-0142,BAIE_B,TR-112,2013-04-20,2014-03-20,N1_OT_1007,RA,Séjour TIROIR TR-0142 en BAIE_B sur TR-112,Dépose pour anomalie capteur embarqué ; investigation atelier.
+TIROIR TR-0142,BAIE_A,TR-152,2014-05-31,2015-05-24,N1_OT_1021,PE,Séjour TIROIR TR-0142 en BAIE_A sur TR-152,SWITCH le jour même : permutation directe TR-152/BAIE_A → TR-101/BAIE_B (sans passage atelier).
+TIROIR TR-0142,BAIE_B,TR-101,2015-05-24,2016-05-13,N1_OT_1028,MO,Séjour TIROIR TR-0142 en BAIE_B sur TR-101,"Après switch le jour même, service nominal."
+TIROIR TR-0142,BAIE_A,TR-130,2016-08-24,2016-09-04,N1_OT_1042,PE,Séjour TIROIR TR-0142 en BAIE_A sur TR-130,Défaut signalé ; permutation diagnostic BAIE_A→BAIE_B directe (sans passage atelier) pour isoler tiroir vs baie.
+TIROIR TR-0142,BAIE_B,TR-130,2016-09-06,2016-09-17,N1_OT_1049,RA,Séjour TIROIR TR-0142 en BAIE_B sur TR-130,Défaut toujours présent après permutation : le défaut SUIT le tiroir → retour atelier (réparation précédente inefficace).
+TIROIR TR-0142,BAIE_B,TR-147,2016-12-01,2017-06-26,N1_OT_1063,PE,Séjour TIROIR TR-0142 en BAIE_B sur TR-147,Défaut signalé ; permutation diagnostic BAIE_B→BAIE_A directe (sans passage atelier) pour isoler tiroir vs baie.
+TIROIR TR-0142,BAIE_A,TR-147,2017-06-28,2017-10-03,N1_OT_1070,RA,Séjour TIROIR TR-0142 en BAIE_A sur TR-147,"Après permutation : fonctionnement nominal (défaut imputé à la baie/au câblage), puis dépose ultérieure."
+TIROIR TR-0142,BAIE_B,TR-130,2017-12-01,2018-09-20,N1_OT_1077,RA,Séjour TIROIR TR-0142 en BAIE_B sur TR-130,Dépose pour défaut système embarqué ; investigation atelier.
+TIROIR TR-0142,BAIE_A,TR-130,2019-01-23,2019-04-23,N1_OT_1091,PE,Séjour TIROIR TR-0142 en BAIE_A sur TR-130,Défaut signalé ; permutation diagnostic BAIE_A→BAIE_B directe (sans passage atelier) pour isoler tiroir vs baie.
+TIROIR TR-0142,BAIE_B,TR-130,2019-04-23,2019-11-16,N1_OT_1098,RA,Séjour TIROIR TR-0142 en BAIE_B sur TR-130,"Après permutation : fonctionnement nominal (défaut imputé à la baie/au câblage), puis dépose ultérieure."
+TIROIR TR-0142,BAIE_B,TR-112,2020-02-24,2020-11-22,N1_OT_1105,PE,Séjour TIROIR TR-0142 en BAIE_B sur TR-112,SWITCH le jour même : permutation directe TR-112/BAIE_B → TR-134/BAIE_A (sans passage atelier).
+TIROIR TR-0142,BAIE_A,TR-134,2020-11-22,,N1_OT_1112,RA,Pose TIROIR TR-0142 en BAIE_A sur TR-134,Séjour en cours (après switch).

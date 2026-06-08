@@ -1,0 +1,197 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>TIROIR TR-0142</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<style>body{font-family:Arial,sans-serif;margin:14px}.legend-note{font-size:12px;color:#555;margin:6px 0 14px}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin:0 4px 0 12px}
+.modal-body td{font-size:13px}</style></head><body>
+<h4>TIROIR TR-0142 — fiche de vie</h4>
+<div class="legend-note">Cliquez sur un point (séjour ou carte) pour le détail de l'OT.
+ Les flèches de transfert affichent le mouvement / stock au survol (pas de modale).
+ <span class="dot" style="background:#2ca02c"></span>retour / mise en stock
+ <span class="dot" style="background:#d62728"></span>dépose pour défaut
+ &nbsp;|&nbsp; sous la ligne : ○ vert = test RAS · ✕ rouge = test KO
+ &nbsp;|&nbsp; haut = positions sur rames · bas = cartes (atelier N3)</div>
+<div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.4.0.min.js" integrity="sha256-KEmPoupLpFyGMyGAiOsiNDbKDKAvxXAn/W+oQa0ZAfk=" crossorigin="anonymous"></script>                <div id="graph" class="plotly-graph-div" style="height:620px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("graph")) {                    Plotly.newPlot(                        "graph",                        [{"hovertemplate":"%{text}\u003cextra\u003eCarte UC\u003c\u002fextra\u003e","line":{"shape":"hv","width":5},"marker":{"line":{"width":3},"size":26,"symbol":"line-ns-open"},"mode":"lines+markers","name":"Carte UC","text":["Carte UC (origine)","#N3_OT_1014, RA","","#N3_OT_1014, RA","RAS"],"x":["2013-04-05","2014-04-14","2014-04-14","2014-05-01","2020-11-22"],"y":[-2,-2,null,-2,-2],"type":"scatter"},{"hovertemplate":"%{text}\u003cextra\u003eCarte E\u002fS\u003c\u002fextra\u003e","line":{"shape":"hv","width":5},"marker":{"line":{"width":3},"size":26,"symbol":"line-ns-open"},"mode":"lines+markers","name":"Carte E\u002fS","text":["Carte E\u002fS (origine)","#N3_OT_1035, RA","","#N3_OT_1035, RA","#N3_OT_1056, CO","","#N3_OT_1056, CO","#N3_OT_1084, CO","","#N3_OT_1084, CO","RAS"],"x":["2013-04-05","2016-06-04","2016-06-04","2016-06-12","2016-10-11","2016-10-11","2016-10-29","2018-10-17","2018-10-17","2018-11-04","2020-11-22"],"y":[-3,-3,null,-3,-3,null,-3,-3,null,-3,-3],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-112 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-112","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-112","showlegend":true,"text":["#N1_OT_1007, RA","#N1_OT_1007, RA"],"x":["2013-04-20","2014-03-20"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-152 \u002f BAIE_A\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-152","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-152","showlegend":true,"text":["#N1_OT_1021, PE","#N1_OT_1021, PE"],"x":["2014-05-31","2015-05-24"],"y":[3,3],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-101 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-101","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-101","showlegend":true,"text":["#N1_OT_1028, MO","#N1_OT_1028, MO"],"x":["2015-05-24","2016-05-13"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-130 \u002f BAIE_A\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-130","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-130","showlegend":true,"text":["#N1_OT_1042, PE","#N1_OT_1042, PE"],"x":["2016-08-24","2016-09-04"],"y":[3,3],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-130 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-130","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-130","showlegend":false,"text":["#N1_OT_1049, RA","#N1_OT_1049, RA"],"x":["2016-09-06","2016-09-17"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-147 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-147","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-147","showlegend":true,"text":["#N1_OT_1063, PE","#N1_OT_1063, PE"],"x":["2016-12-01","2017-06-26"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-147 \u002f BAIE_A\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-147","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-147","showlegend":false,"text":["#N1_OT_1070, RA","#N1_OT_1070, RA"],"x":["2017-06-28","2017-10-03"],"y":[3,3],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-130 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-130","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-130","showlegend":false,"text":["#N1_OT_1077, RA","#N1_OT_1077, RA"],"x":["2017-12-01","2018-09-20"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-130 \u002f BAIE_A\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-130","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-130","showlegend":false,"text":["#N1_OT_1091, PE","#N1_OT_1091, PE"],"x":["2019-01-23","2019-04-23"],"y":[3,3],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-130 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-130","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-130","showlegend":false,"text":["#N1_OT_1098, RA","#N1_OT_1098, RA"],"x":["2019-04-23","2019-11-16"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-112 \u002f BAIE_B\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-112","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-112","showlegend":false,"text":["#N1_OT_1105, PE","#N1_OT_1105, PE"],"x":["2020-02-24","2020-11-22"],"y":[2,2],"type":"scatter"},{"hovertemplate":"%{text}\u003cbr\u003eTR-134 \u002f BAIE_A\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"TR-134","line":{"shape":"hv","width":3},"marker":{"line":{"width":2},"size":9,"symbol":"circle-open"},"mode":"lines+markers","name":"TR-134","showlegend":true,"text":["#N1_OT_1112, RA","RAS"],"x":["2020-11-22","2020-11-22"],"y":[3,3],"type":"scatter"},{"hovertemplate":"%{text}\u003cextra\u003etransfert\u003c\u002fextra\u003e","marker":{"color":["#2ca02c","#d62728","#2ca02c","#d62728","#2ca02c","#d62728","#2ca02c","#d62728","#2ca02c","#d62728","#2ca02c","#d62728","#2ca02c"],"opacity":0,"size":16},"mode":"markers","name":"TRANSFERT","showlegend":false,"text":["STOCK MAG-12  \u2192  N1 (atelier ligne)","TR-112  \u2192  Atelier N3 (d\u00e9faut)","STOCK MAG-10  \u2192  N1 (atelier ligne)","TR-101  \u2192  Atelier N3 (d\u00e9faut)","STOCK MAG-11  \u2192  N1 (atelier ligne)","TR-130  \u2192  Atelier N3 (d\u00e9faut persistant - r\u00e9paration inefficace)","STOCK MAG-12  \u2192  N1 (atelier ligne)","TR-147  \u2192  Atelier N3 (d\u00e9faut)","STOCK MAG-12  \u2192  N1 (atelier ligne)","TR-130  \u2192  Atelier N3 (d\u00e9faut)","STOCK STOCK-A  \u2192  N1 (atelier ligne)","TR-130  \u2192  Atelier N3 (d\u00e9faut)","STOCK MAG-12  \u2192  N1 (atelier ligne)"],"x":["2013-04-05 07:04","2014-03-30 07:58","2014-05-19 10:40","2016-05-20 07:14","2016-08-21 15:45","2016-09-25 15:27","2016-11-22 12:46","2017-10-12 13:10","2017-11-20 16:31","2018-09-25 14:44","2019-01-14 16:07","2019-11-20 13:25","2020-02-11 15:17"],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0],"type":"scatter"},{"hovertemplate":"%{text}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2ca02c","line":{"color":"#2ca02c","width":2.5},"size":12,"symbol":"circle-open"},"mode":"markers","name":"Test RAS","showlegend":false,"text":["Test RAS \u2014 Tiroir conforme au banc (RAS)","Test RAS \u2014 Tiroir conforme au banc (RAS)","Test RAS \u2014 Tiroir conforme au banc (RAS)","Test RAS \u2014 Tiroir conforme au banc (RAS)"],"x":["2016-08-15 09:06","2016-11-17 10:05","2017-11-11 08:48","2019-01-06 12:01"],"y":[-1.1,-1.1,-1.1,-1.1],"type":"scatter"},{"hovertemplate":"%{text}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#d62728","line":{"color":"#d62728","width":2.5},"size":12,"symbol":"x-thin-open"},"mode":"markers","name":"Test KO","showlegend":false,"text":["Test KO \u2014 Tiroir non conforme au banc (KO) - remise en r\u00e9paration","Test KO \u2014 Tiroir non conforme au banc (KO) - remise en r\u00e9paration"],"x":["2014-05-16 15:27","2020-02-08 13:35"],"y":[-1.1,-1.1],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"shapes":[{"line":{"color":"#888","dash":"dot","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":0,"y1":0,"yref":"y"}],"font":{"family":"Arial","size":12},"legend":{"font":{"size":10},"orientation":"v","x":1.01,"y":1,"title":{"text":"Rames"}},"xaxis":{"showgrid":true,"gridcolor":"#eee","type":"date"},"yaxis":{"showgrid":false,"zeroline":false,"showline":true,"automargin":true,"tickvals":[-3,-2,-1,0,1,2,3],"ticktext":["Carte E\u002fS","Carte UC"," ","TRANSFERT N1\u002fN2"," ","BAIE_B","BAIE_A"],"range":[-3.8,3.8]},"height":620,"hovermode":"closest","title":{"text":"TIROIR TR-0142 \u2014 historique de vie & permutations"},"annotations":[{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2013-04-05 07:04","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2013-04-05 07:04","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2014-03-30 07:58","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2014-03-30 07:58","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2014-05-19 10:40","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2014-05-19 10:40","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2016-05-20 07:14","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2016-05-20 07:14","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2016-08-21 15:45","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2016-08-21 15:45","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2016-09-25 15:27","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2016-09-25 15:27","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2016-11-22 12:46","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2016-11-22 12:46","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2017-10-12 13:10","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2017-10-12 13:10","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2017-11-20 16:31","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2017-11-20 16:31","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2018-09-25 14:44","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2018-09-25 14:44","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2019-01-14 16:07","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2019-01-14 16:07","xref":"x","y":1,"yref":"y"},{"arrowcolor":"#d62728","arrowhead":2,"arrowwidth":2.5,"ax":"2019-11-20 13:25","axref":"x","ay":1,"ayref":"y","showarrow":true,"x":"2019-11-20 13:25","xref":"x","y":-1,"yref":"y"},{"arrowcolor":"#2ca02c","arrowhead":2,"arrowwidth":2.5,"ax":"2020-02-11 15:17","axref":"x","ay":-1,"ayref":"y","showarrow":true,"x":"2020-02-11 15:17","xref":"x","y":1,"yref":"y"}]},                        {"responsive": true}                    )                };            </script>        </div>
+<div class="modal fade" id="N3_OT_1014" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N3_OT_1014</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TIROIR TR-0142</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Atelier électronique (N3) - Carte UC</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>Carte UC : dépose 2014-04-14 → repose 2014-05-01</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Échange composant (R/C/IC)</p>
+  </div></div></div></div>
+<div class="modal fade" id="N3_OT_1035" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N3_OT_1035</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TIROIR TR-0142</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Atelier électronique (N3) - Carte E/S</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>Carte E/S : dépose 2016-06-04 → repose 2016-06-12</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Échange composant (R/C/IC)</p>
+  </div></div></div></div>
+<div class="modal fade" id="N3_OT_1056" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N3_OT_1056</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>CO</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TIROIR TR-0142</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Atelier électronique (N3) - Carte E/S</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>Carte E/S : dépose 2016-10-11 → repose 2016-10-29</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Contrôle et remise en état</p>
+  </div></div></div></div>
+<div class="modal fade" id="N3_OT_1084" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N3_OT_1084</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>CO</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TIROIR TR-0142</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Atelier électronique (N3) - Carte E/S</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>Carte E/S : dépose 2018-10-17 → repose 2018-11-04</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Contrôle et remise en état</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1007" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1007</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-112</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-112</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-112 le 2013-04-20</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-112 le 2014-03-20</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Dépose pour anomalie capteur embarqué ; investigation atelier.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1021" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1021</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>PE</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-152</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_A sur TR-152</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_A / TR-152 le 2014-05-31</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_A / TR-152 le 2015-05-24</b></td></tr></table>
+   <p><b>Commentaire :</b><br>SWITCH le jour même : permutation directe TR-152/BAIE_A → TR-101/BAIE_B (sans passage atelier).</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1028" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1028</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>MO</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-101</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-101</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-101 le 2015-05-24</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-101 le 2016-05-13</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Après switch le jour même, service nominal.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1042" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1042</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>PE</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-130</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_A sur TR-130</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_A / TR-130 le 2016-08-24</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_A / TR-130 le 2016-09-04</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Défaut signalé ; permutation diagnostic BAIE_A→BAIE_B directe (sans passage atelier) pour isoler tiroir vs baie.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1049" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1049</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-130</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-130</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-130 le 2016-09-06</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-130 le 2016-09-17</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Défaut toujours présent après permutation : le défaut SUIT le tiroir → retour atelier (réparation précédente inefficace).</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1063" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1063</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>PE</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-147</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-147</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-147 le 2016-12-01</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-147 le 2017-06-26</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Défaut signalé ; permutation diagnostic BAIE_B→BAIE_A directe (sans passage atelier) pour isoler tiroir vs baie.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1070" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1070</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-147</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_A sur TR-147</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_A / TR-147 le 2017-06-28</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_A / TR-147 le 2017-10-03</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Après permutation : fonctionnement nominal (défaut imputé à la baie/au câblage), puis dépose ultérieure.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1077" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1077</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-130</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-130</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-130 le 2017-12-01</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-130 le 2018-09-20</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Dépose pour défaut système embarqué ; investigation atelier.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1091" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1091</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>PE</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-130</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_A sur TR-130</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_A / TR-130 le 2019-01-23</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_A / TR-130 le 2019-04-23</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Défaut signalé ; permutation diagnostic BAIE_A→BAIE_B directe (sans passage atelier) pour isoler tiroir vs baie.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1098" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1098</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-130</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-130</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-130 le 2019-04-23</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-130 le 2019-11-16</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Après permutation : fonctionnement nominal (défaut imputé à la baie/au câblage), puis dépose ultérieure.</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1105" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1105</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>PE</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-112</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Séjour TIROIR TR-0142 en BAIE_B sur TR-112</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_B / TR-112 le 2020-02-24</b></td></tr><tr><td><b>TIROIR TR-0142 déposé de BAIE_B / TR-112 le 2020-11-22</b></td></tr></table>
+   <p><b>Commentaire :</b><br>SWITCH le jour même : permutation directe TR-112/BAIE_B → TR-134/BAIE_A (sans passage atelier).</p>
+  </div></div></div></div>
+<div class="modal fade" id="N1_OT_1112" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="modal-dialog modal-lg"><div class="modal-content">
+  <div class="modal-header"><h5 class="modal-title">Détail de l'OT — N1_OT_1112</h5>
+   <button type="button" class="close" data-dismiss="modal">&times;</button></div>
+  <div class="modal-body"><table class="table table-sm">
+     <tr><td><b>Statut</b></td><td>CLOS</td><td><b>Type maint.</b></td><td>RA</td></tr>
+     <tr><td><b>Équipement</b></td><td colspan="3">TR-134</td></tr>
+     <tr><td><b>Description</b></td><td colspan="3">Pose TIROIR TR-0142 en BAIE_A sur TR-134</td></tr></table>
+   <p><b>Déposes / Poses :</b></p><table class="table table-sm table-bordered"><tr><td><b>TIROIR TR-0142 posé sur BAIE_A / TR-134 le 2020-11-22</b></td></tr></table>
+   <p><b>Commentaire :</b><br>Séjour en cours (après switch).</p>
+  </div></div></div></div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>(function(){var g=document.getElementById('graph');
+g.on('plotly_click',function(data){var t=data.points[0].text||'',m=t.match(/(#\w+_OT_\d+)/);
+if(m){var id=m[1].substring(1);if(window.jQuery&&jQuery('#'+id).length){jQuery('#'+id).modal('show');}}});})();</script></body></html>
